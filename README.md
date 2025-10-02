@@ -1,18 +1,18 @@
-# 🎯 AI Resume Analyzer
+# AI Resume Analyzer
 
 A professional, AI-powered resume analysis tool that helps job seekers optimize their resumes for better job opportunities. Built with React frontend and Flask backend.
 
-## ✨ Features
+## Features
 
-- 📄 **Smart Resume Upload** - Supports PDF, DOC, and DOCX formats
-- 🚀 **Dual Analysis Modes**:
+- **Smart Resume Upload** - Supports PDF, DOC, and DOCX formats
+- **Dual Analysis Modes**:
   - **Quick Mode**: Fast TF-IDF keyword matching
   - **AI Mode**: Advanced semantic analysis using embeddings
-- 📊 **Intelligent Scoring** - Get instant compatibility scores
-- 💡 **Professional Recommendations** - Actionable suggestions to improve your resume
-- 🎨 **Modern UI** - Clean, professional interface with real-time feedback
+- **Intelligent Scoring** - Get instant compatibility scores
+- **Professional Recommendations** - Actionable suggestions to improve your resume
+- **Modern UI** - Clean, professional interface with real-time feedback
 
-## 📸 Screenshots
+## Screenshots
 
 ### AI Mode Analysis
 ![AI Mode Analysis](screenshots/ai-mode-analysis.png)
@@ -26,7 +26,7 @@ A professional, AI-powered resume analysis tool that helps job seekers optimize 
 ![Application Interface](screenshots/home-page.png)
 *Clean, professional interface for resume upload and analysis*
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend:**
 - React 18 + Vite
@@ -39,7 +39,7 @@ A professional, AI-powered resume analysis tool that helps job seekers optimize 
 - PyPDF2 (PDF processing)
 - python-docx (Word documents)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -66,38 +66,38 @@ A professional, AI-powered resume analysis tool that helps job seekers optimize 
    venv\Scripts\activate
    python app.py
    ```
-   🌐 Backend runs on: `http://127.0.0.1:5000`
+   Backend runs on: `http://127.0.0.1:5000`
 
 2. **Start Frontend** (Terminal 2)
    ```bash
    cd frontend
    npm run dev
    ```
-   🌐 Frontend runs on: `http://localhost:5173`
+   Frontend runs on: `http://localhost:5173`
 
-## 🎯 How It Works
+## How It Works
 
 ### Analysis Modes
 
-#### ⚡ Quick Mode
+#### Quick Mode
 - **TF-IDF Algorithm** - Fast keyword matching
 - Instant results with matched/missing keywords
 - Perfect for quick compatibility checks
 
-#### 🤖 AI Mode *(Advanced)*
+#### AI Mode *(Advanced)*
 - **Semantic Analysis** - Deep text understanding
 - Identifies synonyms and related concepts
 - Requires additional ML libraries
 
 ### Usage Steps
 
-1. 📄 **Upload Resume** - PDF, DOC, or DOCX
-2. 📋 **Add Job Description** - Paste any job posting
-3. ⚙️ **Choose Mode** - Quick or AI analysis
-4. 🔍 **Analyze** - Get instant results
-5. 📊 **Review** - Compatibility score + recommendations
+1. **Upload Resume** - PDF, DOC, or DOCX
+2. **Add Job Description** - Paste any job posting
+3. **Choose Mode** - Quick or AI analysis
+4. **Analyze** - Get instant results
+5. **Review** - Compatibility score + recommendations
 
-## 📊 What You Get
+## What You Get
 
 - **Compatibility Score** (0-100%)
 - **Matched Keywords** - Found in both documents
@@ -105,7 +105,7 @@ A professional, AI-powered resume analysis tool that helps job seekers optimize 
 - **Professional Recommendations** - Improvement tips
 - **Analysis Details** - Mode used and insights
 
-## 🔧 Optional: AI Mode Setup
+## Optional: AI Mode Setup
 
 For advanced semantic analysis, install additional packages:
 
@@ -115,7 +115,7 @@ pip install transformers torch sentence-transformers
 
 *Note: AI mode works without these packages but falls back to enhanced TF-IDF.*
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create feature branch: `git checkout -b feature-name`
